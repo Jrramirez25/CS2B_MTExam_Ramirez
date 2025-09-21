@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ilocos Sur - Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header with title and navbar -->
+    <header>
+        <h1>Ilocos Sur</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero Section">
+        Tuklasin ang kagandahan ng Ilocos Sur
+    </section>
+
+    <!-- Section 1: Tourist Spots and Adventures -->
+    <section class="section-tourist-spots" aria-label="Tourist Spots and Adventures">
+        <h2>Tourist Spots and Adventures</h2>
+
+        <!-- Feature presentation -->
+        <article class="tourist-spot" aria-labelledby="feature-title">
+            <h3 id="feature-title">Vigan Heritage Village</h3>
+            <p>Experience the charm of Spanish colonial architecture and cobblestone streets in this UNESCO World Heritage Site.</p>
+            <p class="hashtags">#Heritage #Vigan #Culture #History #UNESCO</p>
+        </article>
+
+        <article class="tourist-spot" aria-labelledby="spot2-title">
+            <h3 id="spot2-title">Bantay Bell Tower</h3>
+            <p>Climb the historic bell tower for panoramic views of Vigan and the surrounding countryside.</p>
+            <p class="hashtags">#Bantay #BellTower #Viewpoint #History #Adventure</p>
+        </article>
+
+        <article class="tourist-spot" aria-labelledby="spot3-title">
+            <h3 id="spot3-title">Baluarte Zoo and Wildlife Sanctuary</h3>
+            <p>Explore a wildlife sanctuary featuring exotic animals and interactive exhibits for the whole family.</p>
+            <p class="hashtags">#Baluarte #Zoo #Wildlife #FamilyFun #Nature</p>
+        </article>
+    </section>
+
+    <!-- Section 2: Locale Products -->
+    <section class="section-locale-products" aria-label="Locale Products">
+        <h2>Local Products</h2>
+
+        <!-- Feature presentation -->
+        <p style="text-align:center; max-width: 600px; margin: 0 auto 2rem auto;">
+            Tumuklas ng mga tunay na produkto ng ilocos sur na ginawa nang may tradisyon at pangangalaga.
+        </p>
+
+        <!-- Products grid -->
+        <div class="products-grid" aria-live="polite" aria-label="Local products grid">
+            <!-- Product cards -->
+            <!-- Each product has a unique data-product-id for JS -->
+            <div class="product-card" role="region" aria-labelledby="product1-title">
+                <img src="images/image1.jpg" alt="Ilocos Tupig" />
+                <div class="product-details">
+                    <h4 id="product1-title">Ilocos Tupig</h4>
+                    <p>Tupig is a Filipino rice cake originating from the northern luzon regions, especiallly ilocos.</p>
+                    <p class="product-price">₱10 per piece</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="1" aria-label="Add Ilocos Tupig to cart">Add</button>
+                    <button class="btn-remove" data-product-id="1" aria-label="Remove Ilocos Tupig from cart">Remove</button>
+                </div>
+            </div>
+
+            <!-- Repeat similar product cards for 12 products -->
+            <!-- For brevity, only 3 shown here, add 9 more with unique IDs and details -->
+
+            <div class="product-card" role="region" aria-labelledby="product2-title">
+                <img src="images/image2.jpg" alt="Ilocos longganisa" />
+                <div class="product-details">
+                    <h4 id="product2-title">Ilocos Longganisa</h4>
+                    <p>Ilocos longganisa, also known as Vigan longganisa, is a filipino pork sausage originating from vigan city, ilocos sur.</p>
+                    <p class="product-price">₱550 per kg</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="2" aria-label="Add Ilocos longganisa to cart">Add</button>
+                    <button class="btn-remove" data-product-id="2" aria-label="Remove Ilocos longganisa from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image3.jpg" alt="Burnay" />
+                <div class="product-details">
+                    <h4 id="product3-title">Burnay</h4>
+                    <p>Burnay is an ilocano term for earthenware jars, commonly used for storing water, rice grains, basi and condiments like salt and bagoong.</p>
+                    <p class="product-price">₱1500 each</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Burnay to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Burnay from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image4.jpg" alt="Ilocos salt" />
+                <div class="product-details">
+                    <h4 id="product3-title">Salt</h4>
+                    <p>Salt making in the ilocos region, particularly in pasquin, involves cooking salt crystals mixed with seawater over a fire, often using rice hulls as a fuel.</p>
+                    <p class="product-price">₱30</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos salt to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocos salt from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image5.jpg" alt="Ilocano Basi" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocano Basi</h4>
+                    <p>Basi is traditional ilocano alcoholic beverage made from fermented sugarcane juice, primarily produced in the northern Luzon Philippines, especially in the Ilocos Region.</p>
+                    <p class="product-price">₱590</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocano Basi to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocano Basi  from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image6.jpg" alt="Ilocos Native Chili" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocos Native Chili</h4>
+                    <p>This Ilocos Native Chili is also known as silling duwag or aruy aruy and curly variety used in traditional Ilocano dishes like pinakbet.</p>
+                    <p class="product-price">₱400 per kg</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos Native Chili to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocos Native Chili from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image7.jpg" alt="Ilocos corn" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocos corn</h4>
+                    <p>Ilocos corn refers to corn crops, promarily white corn and yellow corn, grown and harvested in the province of ilocos sur.</p>
+                    <p class="product-price">₱125 each</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos corn to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocos corn from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image8.jpg" alt="Ilocos Empanada" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocos Empanada</h4>
+                    <p>The crust of ilocos empanada is typically made from a combination of glutinous rice flour with anato and water, resulting in a crispy texture when fried.</p>
+                    <p class="product-price">₱40 each</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos Empanada to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="RemoveIlocos Empanada from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image9.jpg" alt="Ilocos Bagoong" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocos Bagoong</h4>
+                    <p>The natural fish fermented into bagoong or fish paste is a flavor enchancing agent and a condiment or dipping sauce for chichacorn, dried fish and others.</p>
+                    <p class="product-price">₱105 each</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos Bagoong to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocos Bagoong from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image10.jpg" alt="Ilocos Bagnet" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocos Bagnet</h4>
+                    <p>Ilocos bagnet is a filipino dish of twice cooked, deep fried pork belly known for its exceptionally crispy skin and tender, juicy meat.</p>
+                    <p class="product-price">₱410</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos Bagnet to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocos Bagnet from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image11.jpg" alt="Ilocos Candel" />
+                <div class="product-details">
+                    <h4 id="product3-title">Ilocos Candel</h4>
+                    <p>Ilocos Candel is likely a missepelling of candies or refers to the candle making livelihood program in ilocos sur, or the pressence of candle making workshops and bussiness there.</p>
+                    <p class="product-price">₱150</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Ilocos Candle to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Ilocos Candle from cart">Remove</button>
+                </div>
+            </div>
+
+            <div class="product-card" role="region" aria-labelledby="product3-title">
+                <img src="images/image12.jpg" alt="Inabel fabric" />
+                <div class="product-details">
+                    <h4 id="product3-title">Inabel fabric</h4>
+                    <p>Inabel fabric is a sturdy, colorful cloyh made on a handloom using weaving techniques unique to the ilocano people.</p>
+                    <p class="product price">₱400</p>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-add" data-product-id="3" aria-label="Add Inabel fabric to cart">Add</button>
+                    <button class="btn-remove" data-product-id="3" aria-label="Remove Inabel fabric from cart">Remove</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Ilocos Sur Tourism. All rights reserved.
+    </footer>
+
+    <script src="sript.js"></script>
+</body>
+
+</html>
